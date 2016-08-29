@@ -16,7 +16,7 @@ def prepare_Bosphorus(src_root, dst_root):
     for folder in folders:
         samples_folder = os.path.join(data_folder, folder)
         if os.path.isdir(samples_folder):
-            dst_folder = os.path.join(dst_root,dataset_name,folder+'.hog')
+            dst_folder = os.path.join(dst_root,dataset_name,folder)
             line = samples_folder+','+dst_folder+'\n'
             results.append(line)
     return results
