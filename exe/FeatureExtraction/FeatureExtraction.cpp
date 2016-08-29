@@ -776,7 +776,7 @@ int main (int argc, char **argv)
 
 	// Creating a  face analyser that will be used for AU extraction
 	FaceAnalysis::FaceAnalyser face_analyser(vector<cv::Vec3d>(), 0.7, 112, 112, au_loc, tri_loc);
-		
+	string curr_img_file;
 	while(!done) // this is not a for loop as we might also be reading from a webcam
 	{
 		
@@ -789,6 +789,7 @@ int main (int argc, char **argv)
 		int reported_completion = 0;
 
 		double fps_vid_in = -1.0;
+
 
 		if(video_input)
 		{
@@ -837,7 +838,8 @@ int main (int argc, char **argv)
 			curr_img++;
 			if(!input_image_files[f_n].empty())
 			{
-				string curr_img_file = input_image_files[f_n][curr_img];
+				curr_img_file = input_image_files[f_n][curr_img];
+				cout << curr_img_file << endl;
 				captured_image = cv::imread(curr_img_file, -1);
 			}
 			else
@@ -1004,11 +1006,18 @@ int main (int argc, char **argv)
 					cvtColor(sim_warped_img, sim_warped_img, CV_BGR2GRAY);
 				}
 
-				char name[100];
-					
-				// output the frame number
-				std::sprintf(name, "frame_det_%06d.png", frame_count);
 
+				char name[100];
+				// output the frame number
+				if (video_input)
+				{
+					std::sprintf(name, "frame_det_%06d.png", frame_count);
+				}
+				else
+				{
+					boost::filesystem::path p(curr_img_file);
+					std::sprintf(name, p.filename().string().c_str());
+				}
 				// Construct the output filename
 				boost::filesystem::path slash("/");
 					
@@ -1042,7 +1051,8 @@ int main (int argc, char **argv)
 				curr_img++;
 				if(curr_img < (int)input_image_files[f_n].size())
 				{
-					string curr_img_file = input_image_files[f_n][curr_img];
+					curr_img_file = input_image_files[f_n][curr_img];
+					cout << curr_img_file << endl;
 					captured_image = cv::imread(curr_img_file, -1);
 				}
 				else
@@ -1222,6 +1232,4 @@ void post_process_output_file(FaceAnalysis::FaceAnalyser& face_analyser, string 
 		}
 		outfile << endl;
 	}
-		
-
 }

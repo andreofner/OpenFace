@@ -1,0 +1,612 @@
+﻿  0 File(s) copied
+  stdafx.cpp
+  SVR_patch_expert.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  PDM.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  PAW.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  Patch_experts.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  LandmarkDetectionValidator.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  LandmarkDetectorUtils.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<float,18,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<float,18,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/fhog.h(367): note: see reference to function template instantiation 'dlib::matrix<float,18,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/fhog.h(367): note: see reference to class template instantiation 'dlib::matrix<float,18,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/fhog.h(642): note: see reference to function template instantiation 'void dlib::impl_fhog::impl_extract_fhog_features<image_type,dlib::array<dlib::array2d<float,dlib::default_memory_manager>,dlib::default_memory_manager>>(const image_type &,out_type &,int,int,int)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>,
+              out_type=dlib::array<dlib::array2d<float,dlib::default_memory_manager>,dlib::default_memory_manager>
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing\scan_fhog_pyramid.h(55): note: see reference to function template instantiation 'void dlib::extract_fhog_features<image_type,float,dlib::default_memory_manager,dlib::default_memory_manager>(const image_type &,dlib::array<dlib::array2d<float,dlib::default_memory_manager>,dlib::default_memory_manager> &,int,int,int)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing\scan_fhog_pyramid.h(757): note: see reference to function template instantiation 'void dlib::default_fhog_feature_extractor::operator ()<image_type>(const image_type &,dlib::array<dlib::array2d<float,dlib::default_memory_manager>,dlib::default_memory_manager> &,int,int,int) const' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing\scan_fhog_pyramid.h(790): note: see reference to function template instantiation 'void dlib::impl::create_fhog_pyramid_parallel<Pyramid_type,image_type,dlib::default_fhog_feature_extractor>(const image_type &,const feature_extractor_type &,dlib::array<dlib::scan_fhog_pyramid<Pyramid_type,Feature_extractor_type>::fhog_image,dlib::default_memory_manager> &,int,int,int,unsigned long,unsigned long,unsigned long)' being compiled
+          with
+          [
+              Pyramid_type=dlib::pyramid_down<6>,
+              image_type=dlib::cv_image<uchar>,
+              feature_extractor_type=dlib::default_fhog_feature_extractor
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing/object_detector.h(435): note: see reference to function template instantiation 'void dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>::load<image_type>(const image_type &)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing/object_detector.h(435): note: see reference to function template instantiation 'void dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>::load<image_type>(const image_type &)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing/object_detector.h(481): note: see reference to function template instantiation 'void dlib::object_detector<dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>>::operator ()<dlib::cv_image<uchar>>(const image_type &,std::vector<dlib::object_detector<image_scanner_type_>::rect_detection,std::allocator<_Ty>> &,double)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>,
+              _Ty=dlib::object_detector<image_scanner_type_>::rect_detection
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_processing/object_detector.h(481): note: see reference to function template instantiation 'void dlib::object_detector<dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>>::operator ()<dlib::cv_image<uchar>>(const image_type &,std::vector<dlib::object_detector<image_scanner_type_>::rect_detection,std::allocator<_Ty>> &,double)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>,
+              _Ty=dlib::object_detector<image_scanner_type_>::rect_detection
+          ]
+  src\LandmarkDetectorUtils.cpp(1369): note: see reference to function template instantiation 'void dlib::object_detector<dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>>::operator ()<dlib::cv_image<uchar>>(const image_type &,std::vector<dlib::object_detector<image_scanner_type_>::full_detection,std::allocator<_Ty>> &,double)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>,
+              _Ty=dlib::object_detector<image_scanner_type_>::full_detection
+          ]
+  src\LandmarkDetectorUtils.cpp(1369): note: see reference to function template instantiation 'void dlib::object_detector<dlib::scan_fhog_pyramid<dlib::pyramid_down<6>,dlib::default_fhog_feature_extractor>>::operator ()<dlib::cv_image<uchar>>(const image_type &,std::vector<dlib::object_detector<image_scanner_type_>::full_detection,std::allocator<_Ty>> &,double)' being compiled
+          with
+          [
+              image_type=dlib::cv_image<uchar>,
+              _Ty=dlib::object_detector<image_scanner_type_>::full_detection
+          ]
+  LandmarkDetectorFunc.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  LandmarkDetectorModel.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  CCNF_patch_expert.cpp
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(448): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix\../general_hash/random_hashing.h(860): warning C4838: conversion from 'double' to 'const float' requires a narrowing conversion
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to function template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\image_transforms/interpolation.h(285): note: see reference to class template instantiation 'dlib::matrix<double,6,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to function template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(408): note: see reference to class template instantiation 'dlib::matrix<double,2,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to function template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(407): note: see reference to class template instantiation 'dlib::matrix<double,9,9,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(492): note: see reference to function template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\geometry/point_transforms.h(311): note: see reference to class template instantiation 'dlib::matrix<double,3,3,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(206): note: see reference to function template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(205): note: see reference to class template instantiation 'dlib::matrix<double,2,2,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\svm/rls.h(140): note: see reference to function template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_search_strategies.h(170): note: see reference to class template instantiation 'dlib::matrix<double,0,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): warning C4297: 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper': function assumed not to throw an exception but does
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1598): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\matrix/matrix.h(1597): note: while compiling class template member function 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)'
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to function template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper::~literal_assign_helper(void)' being compiled
+          with
+          [
+              T=double
+          ]
+  e:\2016spring\fg\openface\lib\3rdparty\dlib\include\dlib\optimization\optimization_line_search.h(207): note: see reference to class template instantiation 'dlib::matrix<T,2,1,dlib::default_memory_manager,dlib::row_major_layout>::literal_assign_helper' being compiled
+          with
+          [
+              T=double
+          ]
+  Generating Code...
+  LandmarkDetectorParameters.cpp
+  LandmarkDetector.vcxproj -> E:\2016Spring\FG\OpenFace\Debug\LandmarkDetector.lib
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\clm-z.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\clm_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\clm_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\clnf_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\clnf_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\haarAlign.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\main_clm-z.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\main_clm_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\main_clm_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\main_clnf_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\main_clnf_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\tris_66.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\tris_68.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\tris_68_full.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\detection_validation\validator_general_66.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\detection_validation\validator_general_68.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\clnf_left_synth.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\clnf_right_synth.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\main_clnf_synth_left.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\main_clnf_synth_right.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\patch_experts\ccnf_patches_1.00_synth_lid_.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\patch_experts\ccnf_patches_1.50_synth_lid_.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\patch_experts\left_ccnf_patches_1.00_synth_lid_.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\patch_experts\left_ccnf_patches_1.50_synth_lid_.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\pdms\pdm_28_eye_3D_closed.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_eye\pdms\pdm_28_l_eye_3D_closed.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_inner\clnf_inner.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_inner\main_clnf_inner.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_inner\patch_experts\ccnf_patches_1.00_inner.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\model_inner\pdms\pdm_51_inner.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.25_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.25_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.35_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.35_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.5_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_0.5_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\ccnf_patches_1_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\depth_patches_0.25.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\depth_patches_0.35.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\depth_patches_0.5.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\intensity_patches_0.25.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\intensity_patches_0.35.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\intensity_patches_0.5.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.25_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.25_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.35_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.35_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.5_general.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\patch_experts\svr_patches_0.5_wild.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\pdms\In-the-wild_aligned_PDM_68.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\pdms\Multi-PIE_aligned_PDM_66.txt
+  E:\2016Spring\FG\OpenFace\lib\local\LandmarkDetector\model\pdms\Multi-PIE_aligned_PDM_68.txt
+  52 File(s) copied
+  E:\2016Spring\FG\OpenFace\lib\3rdParty\OpenCV3.1\classifiers\haarcascade_frontalface_alt.xml
+  E:\2016Spring\FG\OpenFace\lib\3rdParty\OpenCV3.1\classifiers\haarcascade_frontalface_alt2.xml
+  E:\2016Spring\FG\OpenFace\lib\3rdParty\OpenCV3.1\classifiers\haarcascade_frontalface_alt_tree.xml
+  E:\2016Spring\FG\OpenFace\lib\3rdParty\OpenCV3.1\classifiers\haarcascade_frontalface_default.xml
+  E:\2016Spring\FG\OpenFace\lib\3rdParty\OpenCV3.1\classifiers\haarcascade_profileface.xml
+  5 File(s) copied
