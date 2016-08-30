@@ -21,6 +21,50 @@ def prepare_Bosphorus(src_root, dst_root):
             results.append(line)
     return results
 
+# BU_3DFE
+def prepare_bu_3dfe(src_root, dst_root):
+    print 'Prepare BU_3DFE dataset'
+    dataset_name = 'BU_3DFE'
+    dst_folder = os.path.join(dst_root, dataset_name)
+    if not os.path.exists(dst_folder):
+        os.makedirs(dst_folder)
+    results = []
+    data_folder = os.path.join(src_root, dataset_name)
+    folders = os.listdir(data_folder)
+    print data_folder
+    for folder in folders:
+        samples_path = os.path.join(data_folder,folder)
+        if os.path.isdir(samples_path):
+            dst_path = os.path.join(dst_folder, folder)
+            line = samples_path+','+dst_path+'\n'
+            # print line
+            results.append(line)
+    return results
+
+# BU_4DFE
+def prepare_bu_4dfe(src_root, dst_root):
+    print 'Prepare BU_4DFE dataset'
+    dataset_name = 'BU_4DFE'
+    dst_folder = os.path.join(dst_root, dataset_name)
+    if not os.path.exists(dst_folder):
+        os.makedirs(dst_folder)
+    results = []
+    dataset_path = os.path.join(src_root, dataset_name)
+    samples_folder = os.listdir(dataset_path)
+    for sample_folder in samples_folder:
+        sample_path = os.path.join(dataset_path,sample_folder)
+        if os.path.isdir(sample_path):
+            subsamples_folder = os.listdir(sample_path)
+            for subsample in subsamples_folder:
+                src_path = os.path.join(sample_path,subsample)
+                dst_dir = os.path.join(dst_folder,sample_folder)
+                if not os.path.exists(dst_dir):
+                    os.makedirs(dst_dir)
+                dst_path = os.path.join(dst_dir,subsample)
+                line = src_path+','+dst_path+'\n'
+                results.append(line)
+    return results
+
 
 if __name__ == '__main__':
     src_root = '/usr0/multicomp/datasets'
@@ -28,7 +72,10 @@ if __name__ == '__main__':
     file_path = '/usr0/home/liangkeg/InMind/FG/data_cnn/data_path.list'
     fw = open(file_path,'wb')
 
-    paths = prepare_Bosphorus(src_root, dst_root)
+    # paths = prepare_Bosphorus(src_root, dst_root)
+    # write_path(fw, paths)
+
+    paths = prepare_bu_3dfe(src_root, dst_root)
     write_path(fw, paths)
 
     fw.close()
