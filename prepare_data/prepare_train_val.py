@@ -54,9 +54,9 @@ def prepare_ck(split_list):
                             continue
                         label = get_ck_label(raw_label)
                         images = glob.glob(os.path.join(image_root, subject, sample,'*.png'))
-                        line = images[0]+' '+str(label)+'\n'
+                        line = images[-1]+' '+str(label)+'\n'
                         results.append(line)
-                        line = images[0]+' '+str(label)+'\n'
+                        line = images[0]+' '+str(0)+'\n'
                         results.append(line)
     return results
 
