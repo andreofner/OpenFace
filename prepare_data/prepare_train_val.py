@@ -69,10 +69,10 @@ def split_bu3dfe():
         folder_path = os.path.join(src_root, folder)
         if os.path.isdir(folder_path):
             subject_list.append(folder)
+    subject_list = list(set(subject_list))
     random.seed(4)
-
-    len(subject_list)
-    subject_list = random.shuffle(list(set(subject_list)))
+    random.shuffle(subject_list)
+    print len(subject_list)
     train_list = subject_list[:91]
     test_list = subject_list[91:]
     return train_list,test_list
@@ -133,7 +133,7 @@ def prepare_bu4dfe(split_list):
     labels['Fear'] = 3
     labels['Happy'] = 4
     labels['Sad'] = 5
-    labels['Suprise'] = 6
+    labels['Surprise'] = 6
 
     folders = os.listdir(src_root)
     for folder in folders:
@@ -145,7 +145,7 @@ def prepare_bu4dfe(split_list):
                     samples_path = os.path.join(subject_path, label)
                     samples = glob.glob(os.path.join(samples_path, '*.jpg'))
                     num_samples = len(samples)
-                    sample_index = math.floor(num_samples / 2)
+                    sample_index = int(math.floor(num_samples / 2))
                     line = samples[sample_index] + ' '+ str(labels[label])+'\n'
                     results.append(line)
     return results
@@ -157,11 +157,11 @@ if __name__ == '__main__':
     # ck_train_list, ck_test_list = split_ck()
     # paths = prepare_ck(ck_train_list)
 
-    bu3dfe_train_list, bu3dfe_test_list = split_bu3dfe()
-    paths = prepare_bu3dfe(bu3dfe_train_list)
+    # bu3dfe_train_list, bu3dfe_test_list = split_bu3dfe()
+    # paths = prepare_bu3dfe(bu3dfe_train_list)
 
-    # bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
-    # paths = prepare_bu4dfe(bu4dfe_train_list)
+    bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
+    paths = prepare_bu4dfe(bu4dfe_train_list)
 
 
     write_path(fw, paths)
