@@ -308,7 +308,7 @@ void get_image_input_output_params_feats(vector<vector<string> > &input_image_fi
 					for (vector<path>::const_iterator file_iterator (file_in_directory.begin()); file_iterator != file_in_directory.end(); ++file_iterator)
 					{
 						// Possible image extension .jpg and .png
-						if(file_iterator->extension().string().compare(".jpg") == 0 || file_iterator->extension().string().compare(".png") == 0)
+						if(file_iterator->extension().string().compare(".jpg") == 0 || file_iterator->extension().string().compare(".png") == 0 || file_iterator->extension().string.compare(".bmp") == 0)
 						{																
 							curr_dir_files.push_back(file_iterator->string());															
 						}
