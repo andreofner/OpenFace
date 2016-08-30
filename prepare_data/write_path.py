@@ -81,8 +81,9 @@ def prepare_ck(src_root, dst_root):
         for sample in samples:
             src_path = os.path.join(subject_path, sample)
             dst_path = os.path.join(dst_folder,subject_folder,sample)
-            line = src_path+','+dst_path+'\n'
-            results.append(line)
+            if os.path.isdir(src_path):
+                line = src_path+','+dst_path+'\n'
+                results.append(line)
     return results
 
 
