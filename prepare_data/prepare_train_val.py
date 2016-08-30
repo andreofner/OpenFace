@@ -72,6 +72,7 @@ def split_bu3dfe():
     subject_list = list(set(subject_list))
     random.seed(4)
     random.shuffle(subject_list)
+    
     train_list = subject_list[:91]
     test_list = subject_list[91:]
     return train_list,test_list
@@ -102,16 +103,17 @@ def prepare_bu3dfe(split_list):
 
     folders = os.listdir(src_root)
     for folder in folders:
-        folder_path = os.path.join(src_root, folder)
-        if os.path.isdir(folder_path):
-            images = os.listdir(folder_path)
-            for image in images:
-                if fnmatch.fnmatch(image, '*_F2D.bmp'):
-                    image_path = os.path.join(folder_path, image)
-                    label = get_bu3dfe_label(image_path)
-                    if label != '':
-                        line = image_path + ' '+ str(labels[label])+'\n'
-                        results.append(line)
+        if folder in split_list:
+            folder_path = os.path.join(src_root, folder)
+            if os.path.isdir(folder_path):
+                images = os.listdir(folder_path)
+                for image in images:
+                    if fnmatch.fnmatch(image, '*_F2D.bmp'):
+                        image_path = os.path.join(folder_path, image)
+                        label = get_bu3dfe_label(image_path)
+                        if label != '':
+                            line = image_path + ' '+ str(labels[label])+'\n'
+                            results.append(line)
     return results
 
 def split_bu4dfe():
