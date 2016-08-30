@@ -99,11 +99,11 @@ if __name__ == '__main__':
     # paths = prepare_Bosphorus(src_root, dst_root)
     # write_path(fw, paths)
 
-    # paths = prepare_bu_3dfe(src_root, dst_root)
-    # write_path(fw, paths)
+    paths = prepare_bu_3dfe(src_root, dst_root)
+    write_path(fw, paths)
 
-    # paths = prepare_bu_4dfe(src_root, dst_root)
-    # write_path(fw, paths)
+    paths = prepare_bu_4dfe(src_root, dst_root)
+    write_path(fw, paths)
 
     paths = prepare_ck(src_root, dst_root)
     write_path(fw, paths)
