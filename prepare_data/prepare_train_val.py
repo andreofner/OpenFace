@@ -71,6 +71,7 @@ def split_bu3dfe():
             subject_list.append(folder)
     random.seed(4)
 
+    len(subject_list)
     subject_list = random.shuffle(list(set(subject_list)))
     train_list = subject_list[:91]
     test_list = subject_list[91:]
@@ -153,14 +154,14 @@ if __name__ == '__main__':
     train_file_path = './train.txt'
     fw = open(train_file_path, 'wb')
 
-    ck_train_list, ck_test_list = split_ck()
-    paths = prepare_ck(ck_train_list)
+    # ck_train_list, ck_test_list = split_ck()
+    # paths = prepare_ck(ck_train_list)
 
     bu3dfe_train_list, bu3dfe_test_list = split_bu3dfe()
     paths = prepare_bu3dfe(bu3dfe_train_list)
 
-    bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
-    paths = prepare_bu4dfe(bu4dfe_train_list)
+    # bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
+    # paths = prepare_bu4dfe(bu4dfe_train_list)
 
 
     write_path(fw, paths)
