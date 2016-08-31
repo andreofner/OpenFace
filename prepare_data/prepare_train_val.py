@@ -152,16 +152,27 @@ def prepare_bu4dfe(split_list):
 
 if __name__ == '__main__':
     train_file_path = './train.txt'
-    fw = open(train_file_path, 'wb')
+    test_file_path = './test.txt'
 
-    # ck_train_list, ck_test_list = split_ck()
-    # paths = prepare_ck(ck_train_list)
+    fw_train = open(train_file_path, 'wb')
+    fw_test = open(test_file_path, 'wb')
 
-    # bu3dfe_train_list, bu3dfe_test_list = split_bu3dfe()
-    # paths = prepare_bu3dfe(bu3dfe_train_list)
+    ck_train_list, ck_test_list = split_ck()
+    ck_train_paths = prepare_ck(ck_train_list)
+    write_path(fw_train, ck_train_paths)
+    ck_test_paths = prepare_ck(ck_test_list)
+    write_path(fw_test, ck_test_paths)
+
+
+    bu3dfe_train_list, bu3dfe_test_list = split_bu3dfe()
+    bu3dfe_train_paths = prepare_bu3dfe(bu3dfe_train_list)
+    write_path(fw_train, bu3dfe_train_paths)
+    bu3dfe_test_paths = prepare_bu3dfe(bu3dfe_test_list)
+    write_path(fw_test, bu3dfe_test_paths)
 
     bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
-    paths = prepare_bu4dfe(bu4dfe_train_list)
+    bu4dfe_train_paths = prepare_bu4dfe(bu4dfe_train_list)
+    write_path(fw_train, bu4dfe_train_paths)
+    bu4dfe_test_paths = prepare_bu4dfe(bu4dfe_test_list)
+    write_path(fw_test, bu4dfe_test_paths)
 
-
-    write_path(fw, paths)
