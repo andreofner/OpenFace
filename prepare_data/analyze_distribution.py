@@ -2,7 +2,7 @@
 import os
 
 if __name__ == '__main__':
-    data_path = './train.txt'
+    data_path = './test.txt'
     labels = {}
     with open(data_path, 'rb') as fr:
         lines = fr.readlines()
@@ -12,5 +12,4 @@ if __name__ == '__main__':
                 labels[int(splits[1])] = labels[int(splits[1])] + 1
             else:
                 labels[int(splits[1])] = 1
-
     print labels
