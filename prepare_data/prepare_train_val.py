@@ -72,7 +72,6 @@ def split_bu3dfe():
     subject_list = list(set(subject_list))
     random.seed(4)
     random.shuffle(subject_list)
-    print len(subject_list)
     train_list = subject_list[:91]
     test_list = subject_list[91:]
     return train_list,test_list
@@ -161,6 +160,7 @@ if __name__ == '__main__':
     ck_train_paths = prepare_ck(ck_train_list)
     write_path(fw_train, ck_train_paths)
     ck_test_paths = prepare_ck(ck_test_list)
+    print len(ck_test_paths)
     write_path(fw_test, ck_test_paths)
 
 
@@ -168,11 +168,13 @@ if __name__ == '__main__':
     bu3dfe_train_paths = prepare_bu3dfe(bu3dfe_train_list)
     write_path(fw_train, bu3dfe_train_paths)
     bu3dfe_test_paths = prepare_bu3dfe(bu3dfe_test_list)
+    print len(bu3dfe_test_paths)
     write_path(fw_test, bu3dfe_test_paths)
 
     bu4dfe_train_list, bu4dfe_test_list = split_bu4dfe()
     bu4dfe_train_paths = prepare_bu4dfe(bu4dfe_train_list)
     write_path(fw_train, bu4dfe_train_paths)
     bu4dfe_test_paths = prepare_bu4dfe(bu4dfe_test_list)
+    print len(bu4dfe_test_paths)
     write_path(fw_test, bu4dfe_test_paths)
 
